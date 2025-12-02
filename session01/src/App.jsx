@@ -14,10 +14,18 @@ function Header (){
     </>
   )
 }
+function MainContent (){
+  return(
+    <>
+    <p> Ici, nous afficherons des informations interessante</p>
+    </>
+  )
+}
 function App() {
   return (
     <>
     <Header />
+    <MainContent /> 
     </>
   )  
 }
