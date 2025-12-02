@@ -26,8 +26,16 @@ function App() {
     <>
     <Header />
     <MainContent /> 
+    <Footer />  
     </>
+
   )  
 }
-
+function Footer (){
+  return(
+    <>
+    <p>Tous droits réservés - RENE Jean Wilky</p>
+    </>
+  )
+} 
 export default App
